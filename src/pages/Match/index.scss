@@ -1,0 +1,17 @@
+.box-match {
+    border-radius: 16px;
+    background-color: #462842;
+    max-width: 245px;
+    margin: 0 auto;
+    .box-match--image {
+
+    }
+    .box-match--content {
+        color: #fff;
+        padding: 16px;
+
+        a {
+            color: #fff;
+        }
+    }
+}
