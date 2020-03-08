@@ -6,3 +6,38 @@
 body {
   font-family: 'Spartan', sans-serif;
 }
+
+
+.button-primary {
+  border: none;
+  border-radius: 16px;
+  background-color: #FF5B01;
+  color: #fff;
+  font-weight: 500;
+  padding: 16px 32px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  // -webkit-transition: all 0.3s ease-out;  
+  // transition: all 0.3s ease-out;
+  margin: 0 15px;
+  &:hover {
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 600px) {
+    margin: 16px 0;
+    display: block;
+  }
+}
+
+.m-b-48 {
+  margin-bottom: 48px;
+}
+
+.input-default {
+  background-color: #FFEEE5;
+  border-radius: 16px;
+  border-width: 0px;
+}
