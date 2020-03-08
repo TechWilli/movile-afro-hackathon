@@ -7,7 +7,7 @@ function Match() {
     <div className="Match">
       <h2>Josué, encontramos os seguintes mentores para você</h2>
       <SwiperMatch></SwiperMatch>
-      <button>Selecionar Button</button>
+      <button className="button-primary">Selecionar Button</button>
     </div>
   );
 }
