@@ -1,0 +1,24 @@
+.MentorProfile {
+    border-top: solid 8px #FF5B01;
+    h3 {
+        font-size: 20px;
+    }
+    .profile-box {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        display: flex;
+        align-items: center;
+        .profile-box--image {
+            padding-right: 30px;
+            img {
+                max-height: 140px;
+            }
+        }
+        .profile-box--content {
+
+        }
+    }
+    button {
+        width: 100%;
+    }
+}

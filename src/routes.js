@@ -5,6 +5,7 @@ import Match from './pages/Match';
 import Login from './pages/Login';
 import CadastroMentor from './pages/CadastroMentor';
 import CadastroMentorado from './pages/CadastroMentorado';
+import MentorProfile from './pages/MentorProfile';
 
 const Routes = (props) => {
     return (
@@ -15,6 +16,7 @@ const Routes = (props) => {
                 <Route exact path="/login" component={Login} />
                 <Route exact path="/cadastro-mentor" component={CadastroMentor} />
                 <Route exact path="/cadastro-mentorado" component={CadastroMentorado} />
+                <Route exact path="/perfil-mentor" component={MentorProfile} />
             </Switch>
         </BrowserRouter>
     ); 

@@ -5,9 +5,13 @@ import './index.scss';
 function Match() {
   return (
     <div className="Match">
-      <h2>Josué, encontramos os seguintes mentores para você</h2>
-      <SwiperMatch></SwiperMatch>
-      <button className="button-primary">Selecionar Button</button>
+      <div className="container">
+        <h1>Encontramos os melhores mentores para você</h1>
+        <SwiperMatch></SwiperMatch>
+        <div className="text-center">
+          <button className="button-primary">Selecionar Mentor</button>
+        </div>
+      </div>
     </div>
   );
 }
