@@ -40,7 +40,7 @@ class CadastroMentor2 extends Component {
                         <label for="inputLinkedin">Linkedin</label>
                         <input type="text" class="form-control input-default" id="inputLinkedin" />
                     </div>
-                    <Link className="button-primary float-left" style={{ backgroundColor: 'grey' }} to="/">Home</Link>
+                    <Link className="button-primary float-left" style={{ backgroundColor: 'grey' }} to="/cadastro-mentor">Voltar</Link>
                     <Link className="button-primary float-right" to="/cadastro-mentor-3">Próximo</Link>
                 </form>
 

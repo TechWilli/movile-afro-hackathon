@@ -35,25 +35,17 @@ class CadastroMentor3 extends Component {
                             <div className="row">
                                 <button className="button-primary m-2" style={{ backgroundColor: '#462842', width: 150 }}>Marketing</button>
                             </div>
+
                             <div className="row">
-                                <button className="button-primary m-2" style={{ backgroundColor: '#462842', width: 150 }}>Tecnologia</button>
-                            </div>
-                            <div className="row">
-                                <button className="button-primary m-2" style={{ backgroundColor: '#462842', width: 150 }}>Biologia</button>
+                                <button className="button-primary m-2" style={{ backgroundColor: '#462842', width: 150 }}>Produto</button>
                             </div>
                         </div>
                         <div className="col">
                             <div className="row">
-                                <button className="button-primary m-2" style={{ backgroundColor: '#462842', width: 150 }}>Culinária</button>
+                                <button className="button-primary m-2" style={{ backgroundColor: '#462842', width: 150 }}>Tecnologia</button>
                             </div>
                             <div className="row">
-                                <button className="button-primary m-2" style={{ backgroundColor: '#462842', width: 150 }}>Biologia</button>
-                            </div>
-                            <div className="row">
-                                <button className="button-primary m-2" style={{ backgroundColor: 'grey', width: 150 }}>Dados</button>
-                            </div>
-                            <div className="row">
-                                <button className="button-primary m-2" style={{ backgroundColor: '#462842', width: 150 }}>Estética</button>
+                                <button className="button-primary m-2" style={{ backgroundColor: '#462842', width: 150 }}>Dados</button>
                             </div>
                         </div>
                     </div>

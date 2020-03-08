@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Home() {
   return (
-    <div className="Home container">
+    <div className="Home container" style= {{ marginTop: 120 }}>
       <img className="m-0-auto img-responsive m-b-48 mt-5" src={require("../../assets/logo-triunfo.png")} />
       <div className="container">
         <div className="row text-center m-b-48">

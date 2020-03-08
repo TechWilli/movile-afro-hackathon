@@ -28,10 +28,10 @@ class CadastroMentor4 extends Component {
                 <form className="container mx-auto" style={{ width: 350 }}>
                     <div class="form-group">
                         <label for="inputSobre">Conte um pouco sobre sua história</label>
-                        <textarea type="email" class="form-control input-default" id="inputSobre" rows="7" />
+                        <textarea type="text" class="form-control input-default" id="inputSobre" rows="7" />
                     </div>
 
-                    <Link className="button-primary float-left" style={{ backgroundColor: 'grey' }} to="/">Home</Link>
+                    <Link className="button-primary float-left" style={{ backgroundColor: 'grey' }} to="/cadastro-mentor-2">Voltar</Link>
                     <Link className="button-primary float-right" to="/cadastro-mentor-4">Próximo</Link>
                 </form>
 

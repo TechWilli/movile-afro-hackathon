@@ -2,12 +2,13 @@ import React from 'react';
 import Swiper from 'react-id-swiper';
 import './index.scss';
 import 'swiper/css/swiper.css';
+import { Link } from 'react-router-dom';
 
 function SwiperMatch() {
     const params = {
         pagination: {
-          el: '.swiper-pagination',
-          type: 'bullets',
+        //   el: '.swiper-pagination',
+        //   type: 'bullets',
           clickable: true
         },
         navigation: {
@@ -32,7 +33,7 @@ function SwiperMatch() {
             <div className="box-match--content">
                 <h3>Fabio Silva</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ....</p>
-                <a href="">Ver Perfil</a>
+                <Link className="" to="/perfil-mentor">Ver Perfil</Link>
             </div>
         </div>
         <div className="box-match">
@@ -45,7 +46,7 @@ function SwiperMatch() {
             <div className="box-match--content">
                 <h3>Orlando de Oliveira</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ....</p>
-                <a href="">Ver Perfil</a>
+                <Link className="" to="/perfil-mentor">Ver Perfil</Link>
             </div>
         </div>
         <div className="box-match">
@@ -58,7 +59,7 @@ function SwiperMatch() {
             <div className="box-match--content">
                 <h3>Orlando de Oliveira</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ....</p>
-                <a href="">Ver Perfil</a>
+                <Link className="" to="/perfil-mentor">Ver Perfil</Link>
             </div>
         </div>
       </Swiper>
